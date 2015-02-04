@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+D:\ProgramFiles\Android\Workspace\NBTodo\gittest\.metadata\.plugins\org.eclipse.jdt.core
+1284074322.index
