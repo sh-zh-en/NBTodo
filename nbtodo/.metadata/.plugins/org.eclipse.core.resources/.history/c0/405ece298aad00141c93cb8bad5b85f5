@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    android:orientation="horizontal" >
+    
+    <EditText  
+	    android:id="@+id/edit_text1"    
+	    android:layout_width="fill_parent"   
+	    android:layout_height="wrap_content"  
+	    android:maxLength="40"  
+	    android:hint="@string/addition_task_layout_edittext01"  
+	    android:textColorHint="#238745"/>
+    
+    <RadioGroup   
+        android:id="@+id/radiogroup1"   
+        android:layout_width="wrap_content"   
+        android:layout_height="wrap_content"   
+        android:orientation="vertical"   
+        android:layout_x="3px"   >   
+        <RadioButton   
+            android:id="@+id/radiobutton1"   
+            android:layout_width="wrap_content"   
+            android:layout_height="wrap_content"   
+            android:text="@string/addition_task_layout_radiobutton01"  
+            android:textSize="11.0sp"     
+            android:textColor="@android:color/black"  
+            android:gravity="center" 
+            android:layout_weight="1"  
+            android:checked="true"  
+            android:button="@null" 
+             
+        />   
+        <RadioButton   
+            android:id="@+id/radiobutton2"   
+            android:layout_width="wrap_content"   
+            android:layout_height="wrap_content"   
+            android:text="@string/addition_task_layout_radiobutton02" 
+            android:textSize="11.0sp"     
+            android:textColor="@android:color/black"  
+            android:gravity="center" 
+            android:layout_weight="1"  
+            android:checked="true"  
+            
+        />   
+        <RadioButton   
+            android:id="@+id/radiobutton3"   
+            android:layout_width="wrap_content"   
+            android:layout_height="wrap_content"   
+            android:text="@string/addition_task_layout_radiobutton03"  
+            android:textSize="11.0sp"     
+            android:textColor="@android:color/black"  
+            android:gravity="center" 
+            android:layout_weight="1"  
+            
+            android:button="@null"  
+        />   
+        <RadioButton   
+            android:id="@+id/radiobutton4"   
+            android:layout_width="wrap_content"   
+            android:layout_height="wrap_content"   
+            android:text="@string/addition_task_layout_radiobutton04"  
+            android:textSize="11.0sp"     
+            android:textColor="@android:color/black"  
+            android:gravity="center" 
+            
+            android:checked="true"  
+            android:button="@null"  
+        />   
+    </RadioGroup>   
+
+
+
+</LinearLayout>
