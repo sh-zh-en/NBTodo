@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" >
+
+    android:orientation="horizontal" >
+    
+    <EditText  
+	    android:id="@+id/edit_text1"    
+	    android:layout_width="fill_parent"   
+	    android:layout_height="wrap_content"  
+	    android:maxLength="40"  
+	    android:hint="@string/addition_task_layout_edittext01"  
+	    android:textColorHint="#238745"/>
+    
+    <RadioGroup   
+        android:id="@+id/radiogroup1"   
+        android:layout_width="wrap_content"   
+        android:layout_height="wrap_content"   
+        android:orientation="vertical"   
+        android:layout_x=""   >   
+
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/addition_task_layout_radiobutton01"
+            android:textSize="11.0sp" />
+
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/addition_task_layout_radiobutton02"
+            android:textColor="@android:color/black"
+            android:textSize="11.0sp" />
+   
+        <RadioButton
+            android:id="@+id/radiobutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/addition_task_layout_radiobutton03"
+            android:textColor="@android:color/black"
+            android:textSize="11.0sp" />
+
+        <RadioButton
+            android:id="@+id/radiobutton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/addition_task_layout_radiobutton04"
+            android:textColor="@android:color/black"
+            android:textSize="11.0sp" />
+   
+    </RadioGroup>   
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/dateAndTime"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:lines="1"
+		    android:text="@string/hello_world"
+		    android:layout_marginRight="true"
+		    android:textSize="40sp"
+		     />
+
+		<Button
+		    android:id="@+id/setDate"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="100dp"
+		    android:layout_weight="1"
+		    android:text="Set the Date" />
+	    
+	    </FrameLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+

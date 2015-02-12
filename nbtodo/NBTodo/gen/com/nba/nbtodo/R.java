@@ -1648,7 +1648,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f090047;
+        public static final int action_settings=0x7f090049;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090014;
         public static final int beginning=0x7f09001b;
@@ -1694,8 +1694,10 @@ containing a value of this type.
         public static final int search_plate=0x7f090039;
         public static final int search_src_text=0x7f09003a;
         public static final int search_voice_btn=0x7f09003e;
+        public static final int setDate=0x7f090048;
         public static final int shortcut=0x7f09002a;
         public static final int showCustom=0x7f090010;
+        public static final int showDate=0x7f090047;
         public static final int showHome=0x7f090011;
         public static final int showTitle=0x7f090012;
         public static final int split_action_bar=0x7f090004;
@@ -1830,6 +1832,7 @@ containing a value of this type.
         public static final int addition_task_layout_radiobutton04=0x7f0a0018;
         public static final int app_name=0x7f0a0010;
         public static final int hello_world=0x7f0a0011;
+        public static final int show_time=0x7f0a0019;
     }
     public static final class style {
         /** 

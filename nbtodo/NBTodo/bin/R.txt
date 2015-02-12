@@ -347,7 +347,7 @@ int id action_menu_presenter 0x7f090006
 int id action_mode_bar 0x7f09002e
 int id action_mode_bar_stub 0x7f09002d
 int id action_mode_close_button 0x7f090020
-int id action_settings 0x7f090047
+int id action_settings 0x7f090049
 int id activity_chooser_view_content 0x7f090021
 int id always 0x7f090014
 int id beginning 0x7f09001b
@@ -393,8 +393,10 @@ int id search_mag_icon 0x7f090038
 int id search_plate 0x7f090039
 int id search_src_text 0x7f09003a
 int id search_voice_btn 0x7f09003e
+int id setDate 0x7f090048
 int id shortcut 0x7f09002a
 int id showCustom 0x7f090010
+int id showDate 0x7f090047
 int id showHome 0x7f090011
 int id showTitle 0x7f090012
 int id split_action_bar 0x7f090004
@@ -459,6 +461,7 @@ int string addition_task_layout_radiobutton03 0x7f0a0017
 int string addition_task_layout_radiobutton04 0x7f0a0018
 int string app_name 0x7f0a0010
 int string hello_world 0x7f0a0011
+int string show_time 0x7f0a0019
 int style AppBaseTheme 0x7f0b00eb
 int style AppTheme 0x7f0b00ec
 int style Base_TextAppearance_AppCompat 0x7f0b0098
