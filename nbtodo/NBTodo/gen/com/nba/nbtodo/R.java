@@ -1679,10 +1679,10 @@ containing a value of this type.
         public static final int progress_circular=0x7f090007;
         public static final int progress_horizontal=0x7f090008;
         public static final int radio=0x7f09002b;
-        public static final int radiobutton1=0x7f090043;
-        public static final int radiobutton2=0x7f090044;
-        public static final int radiobutton3=0x7f090045;
-        public static final int radiobutton4=0x7f090046;
+        public static final int radiobutton11=0x7f090043;
+        public static final int radiobutton21=0x7f090044;
+        public static final int radiobutton31=0x7f090045;
+        public static final int radiobutton41=0x7f090046;
         public static final int radiogroup1=0x7f090042;
         public static final int search_badge=0x7f090035;
         public static final int search_bar=0x7f090034;
@@ -1761,7 +1761,9 @@ containing a value of this type.
         public static final int abc_simple_dropdown_hint=0x7f030016;
         public static final int activity_nbtodo_main=0x7f030017;
         public static final int addition_task_layout=0x7f030018;
-        public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int addition_task_layout02=0x7f030019;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
+        public static final int test=0x7f03001b;
     }
     public static final class menu {
         public static final int nbtodo_main=0x7f0c0000;
