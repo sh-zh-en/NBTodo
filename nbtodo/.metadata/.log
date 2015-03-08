@@ -11068,3 +11068,21 @@ Binding(ALT+SHIFT+ARROW_LEFT,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-05 16:36:37.904
+!MESSAGE activity_nbtodo_main.xml: Couldn't resolve resource @string/task_menu
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-05 16:36:37.925
+!MESSAGE activity_nbtodo_main.xml: Couldn't resolve resource @string/task_menu
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-05 16:37:01.816
+!MESSAGE activity_nbtodo_main.xml: Couldn't resolve resource @string/task_menu
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-05 16:37:01.817
+!MESSAGE activity_nbtodo_main.xml: Couldn't resolve resource @string/task_menu
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-05 16:37:23.684
+!MESSAGE activity_nbtodo_main.xml: Couldn't resolve resource @string/task_menu
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-05 16:37:23.685
+!MESSAGE activity_nbtodo_main.xml: Couldn't resolve resource @string/task_menu

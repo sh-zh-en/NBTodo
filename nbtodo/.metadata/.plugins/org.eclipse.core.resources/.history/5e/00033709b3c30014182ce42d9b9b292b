@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="bottom"
-        android:layout_above="@id/button3"
 		android:weightSum="2"
         android:orientation="vertical" >
 		<TextView
@@ -36,21 +35,7 @@
 	        android:text="@string/addition_task_button"
 	        />
 	</FrameLayout>
-	<LinearLayout 
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:orientation="horizontal" >
-		<Button
-			android:id="@+id/button1"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="Button 1" />
-		<Button
-			android:id="@+id/button2"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="Button 2" />
-	</LinearLayout>
+
 
         
 

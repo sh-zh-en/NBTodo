@@ -4,5 +4,65 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     
-
+<LinearLayout 
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:weightSum="2"
+			android:orientation="horizontal" >
+			
+		     <RadioButton
+	            android:id="@+id/radiobutton1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="@string/addition_task_layout_radiobutton01"
+	            android:textSize="11.0sp" 
+	            />
+	
+	        <RadioButton
+	            android:id="@+id/radiobutton2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="@string/addition_task_layout_radiobutton02"
+	            android:textColor="@android:color/black"
+	            android:textSize="11.0sp" 
+	            />
+	      
+		</LinearLayout>
+ 		<LinearLayout 
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:weightSum="2"
+			android:orientation="horizontal" >
+			
+ 		    <RadioButton
+	            android:id="@+id/radiobutton3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="@string/addition_task_layout_radiobutton03"
+	            android:textColor="@android:color/black"
+	            android:textSize="11.0sp" 
+	            android:checked="false" 
+	             />
+	
+	        <RadioButton
+	            android:id="@+id/radiobutton4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="2"
+	            android:gravity="center"
+	            android:text="@string/addition_task_layout_radiobutton04"
+	            android:textColor="@android:color/black"
+	            android:textSize="11.0sp" 
+	            android:checked="false" 
+	           />
+		     
+	      
+		</LinearLayout>
+		 
 </LinearLayout>

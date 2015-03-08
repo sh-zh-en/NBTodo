@@ -5,35 +5,37 @@
     android:layout_gravity="bottom"
     android:orientation="vertical" >
 
-    <EditText
-        android:id="@+id/edit_text1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/addition_task_layout_edittext01"
-        android:maxLength="40"
-        android:textColorHint="#238745" />
+
+    
+    <EditText  
+	    android:id="@+id/edit_text1"    
+	    android:layout_width="fill_parent"   
+	    android:layout_height="wrap_content"  
+	    android:maxLength="40"  
+	    android:hint="@string/addition_task_layout_edittext01"  
+	    android:textColorHint="#238745"/>
     
     <RadioGroup
         android:id="@+id/radiogroup1"
         android:layout_width="264dp"
         android:layout_height="wrap_content"
-		android:weightSum="4"
         android:orientation="vertical" >
    
           	 <RadioButton
-          	     android:id="@+id/radiobutton11"
-          	     android:layout_width="wrap_content"
-          	     android:layout_height="wrap_content"
-          	     android:layout_weight="1"
-          	     android:gravity="center"
-          	     android:text="@string/addition_task_layout_radiobutton01"
-          	     android:textSize="11.0sp" />
+	            android:id="@+id/radiobutton11"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:gravity="center"
+	            android:text="@string/addition_task_layout_radiobutton01"
+	            android:textSize="11.0sp" 
+	            />
 	
 	        <RadioButton
 	            android:id="@+id/radiobutton21"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:layout_weight="2"
+	            android:layout_weight="1"
 	            android:gravity="center"
 	            android:text="@string/addition_task_layout_radiobutton02"
 	            android:textColor="@android:color/black"
@@ -43,7 +45,7 @@
 	            android:id="@+id/radiobutton31"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:layout_weight="3"
+	            android:layout_weight="1"
 	            android:gravity="center"
 	            android:text="@string/addition_task_layout_radiobutton03"
 	            android:textColor="@android:color/black"
@@ -55,7 +57,7 @@
 	            android:id="@+id/radiobutton41"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:layout_weight="4"
+	            android:layout_weight="2"
 	            android:gravity="center"
 	            android:text="@string/addition_task_layout_radiobutton04"
 	            android:textColor="@android:color/black"
@@ -83,11 +85,12 @@
 		    android:gravity="left"/>
 		<Button
 		    android:id="@+id/setDate"
-		    android:layout_width="50dp"
+		    android:layout_width="wrap_content"
 		    android:layout_height="50dp"
 		    android:layout_gravity="right"
 		    android:text=">" 
 		    android:textSize="20sp"/>
+		    android:gravity="center"
 	    
 
 	    </FrameLayout>

@@ -9,48 +9,33 @@
     tools:context="com.nba.nbtodo.NBTodoMainActivity" >
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_above="@id/button3"
 		android:weightSum="2"
         android:orientation="vertical" >
 		<TextView
 	        android:id="@+id/textview"
-	        android:layout_width="match_parent"
-	        android:layout_height="match_parent"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
 	        android:text="@string/show_time"
 	        android:gravity="center"
-		    android:textSize="20sp"
+		    android:textSize="20dp"
 			/>
 		<Button
 	        android:id="@+id/button_task_menu"
-	        android:layout_width="50dp"
-	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
 	        android:text="@string/task_menu"
 	        />
 		<Button
 	        android:id="@+id/button_addition_task"
-	        android:layout_width="50dp"
-	        android:layout_height="match_parent"
-		    android:layout_gravity="end"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+		    android:layout_gravity="right"
 	        android:text="@string/addition_task_button"
 	        />
 	</FrameLayout>
-	<LinearLayout 
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:orientation="horizontal" >
-		<Button
-			android:id="@+id/button1"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="Button 1" />
-		<Button
-			android:id="@+id/button2"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="Button 2" />
-	</LinearLayout>
+
 
         
 
