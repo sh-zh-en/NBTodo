@@ -39,10 +39,10 @@
 	<LinearLayout 
 	    android:id="@+id/LinearLayout_activity_main_first"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
+		android:layout_height="match_parent"
 		android:layout_below="@id/FrameLayout_activity_main_first"
 		android:orientation="horizontal" >
-		
+
 		<Button
 		    android:id="@+id/button1"
 		    android:layout_width="wrap_content"

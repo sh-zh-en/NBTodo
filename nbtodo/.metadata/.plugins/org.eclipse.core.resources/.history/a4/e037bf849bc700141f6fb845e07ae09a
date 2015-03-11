@@ -39,10 +39,10 @@
 	<LinearLayout 
 	    android:id="@+id/LinearLayout_activity_main_first"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
+		android:layout_height="match_parent"
 		android:layout_below="@id/FrameLayout_activity_main_first"
 		android:orientation="horizontal" >
-		
+
 		<Button
 		    android:id="@+id/button1"
 		    android:layout_width="wrap_content"
@@ -64,13 +64,13 @@
 		android:orientation="horizontal" >
 
 		<Button
-		    android:id="@+id/button3"
+		    android:id="@+id/button1"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:text="@string/addition_task_layout_radiobutton02" />
 
 		<Button
-		    android:id="@+id/button4"
+		    android:id="@+id/button2"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:text="@string/addition_task_layout_radiobutton01" />
