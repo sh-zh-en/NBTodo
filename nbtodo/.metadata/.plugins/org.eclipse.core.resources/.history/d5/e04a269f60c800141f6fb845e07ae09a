@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NBTodo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <string name="activity_nbtodo_main_button01">添加任务</string>
+    
+    
+    <string name="addition_task_layout_edittext01">请输入待办事项</string>
+    <string name="addition_task_layout_radiobutton01">很重要-很紧急</string>
+    <string name="addition_task_layout_radiobutton02">很重要-不紧急</string>
+    <string name="addition_task_layout_radiobutton03">不重要-很紧急</string>
+    <string name="addition_task_layout_radiobutton04">不重要-不紧急</string>
+    <string name="addition_task_button">+</string>
+    <string name="edit">></string>
+    <string name="task_menu">menu</string>
+    <string name="show_time">此处显示时间</string>
+    
+    
+    
+    
+
+</resources>

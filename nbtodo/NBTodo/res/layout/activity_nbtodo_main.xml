@@ -18,6 +18,7 @@
 	        android:id="@+id/textview"
 	        android:layout_width="match_parent"
 	        android:layout_height="match_parent"
+	        android:background="#b4f9e500"
 	        android:text="@string/show_time"
 	        android:gravity="center"
 		    android:textSize="20sp"
@@ -39,43 +40,64 @@
 	<LinearLayout 
 	    android:id="@+id/LinearLayout_activity_main_first"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:layout_below="@id/FrameLayout_activity_main_first"
-		android:orientation="horizontal" >
-		
-		<Button
-		    android:id="@+id/button1"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:text="@string/addition_task_layout_radiobutton04" />
-
-		<Button
-		    android:id="@+id/button2"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:text="@string/addition_task_layout_radiobutton03" />
-
-	</LinearLayout>
-	<LinearLayout 
-	    android:id="@+id/LinearLayout_activity_main_second"
-		android:layout_width="match_parent"
 		android:layout_height="match_parent"
-		android:layout_below="@id/LinearLayout_activity_main_first"
-		android:orientation="horizontal" >
+		android:layout_below="@id/FrameLayout_activity_main_first"
+		android:orientation="vertical" >
 
-		<Button
-		    android:id="@+id/button3"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:text="@string/addition_task_layout_radiobutton02" />
-
-		<Button
-		    android:id="@+id/button4"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:text="@string/addition_task_layout_radiobutton01" />
-
-	</LinearLayout>
+		<LinearLayout 
+		    android:id="@+id/LinearLayout_activity_two_first"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="horizontal" >
+			
+			<Button
+			    android:id="@+id/button1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:background="#b4f9e5"
+			    android:gravity="center_horizontal|top"
+			    android:text="@string/addition_task_layout_radiobutton04" />
+	
+			<Button
+			    android:id="@+id/button2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:background="#dbf9b4"
+			    android:gravity="center_horizontal|top"
+			    android:text="@string/addition_task_layout_radiobutton03" />
+	
+		</LinearLayout>
+		<LinearLayout 
+		    android:id="@+id/LinearLayout_activity_two_second"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_below="@id/LinearLayout_activity_main_first"
+			android:layout_weight="1"
+			android:orientation="horizontal" >
+	
+			<Button
+			    android:id="@+id/button3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:background="#f9e1b4"
+			    android:gravity="center_horizontal|top"
+			    android:text="@string/addition_task_layout_radiobutton02" />
+	
+			<Button
+			    android:id="@+id/button4"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:background="#fcd1fa"
+			    android:gravity="center_horizontal|top"
+			    android:text="@string/addition_task_layout_radiobutton01" />
+	
+		</LinearLayout>
         
+	</LinearLayout>
 
 </RelativeLayout>

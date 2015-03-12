@@ -18,8 +18,9 @@
     <string name="edit">></string>
     <string name="task_menu">menu</string>
     <string name="show_time">此处显示时间</string>
-    
-    
+    <string name="warningchoose">选择提醒方式</string>
+    <string name="enter">></string>
+    <string name="add">添加</string>
     
     
 

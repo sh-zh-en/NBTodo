@@ -24,7 +24,6 @@
           	     android:id="@+id/radiobutton11"
           	     android:layout_width="wrap_content"
           	     android:layout_height="wrap_content"
-          	     android:layout_weight="1"
           	     android:gravity="center"
           	     android:text="@string/addition_task_layout_radiobutton01"
           	     android:textSize="11.0sp" />
@@ -33,7 +32,6 @@
 	            android:id="@+id/radiobutton21"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:layout_weight="2"
 	            android:gravity="center"
 	            android:text="@string/addition_task_layout_radiobutton02"
 	            android:textColor="@android:color/black"
@@ -43,7 +41,6 @@
 	            android:id="@+id/radiobutton31"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:layout_weight="3"
 	            android:gravity="center"
 	            android:text="@string/addition_task_layout_radiobutton03"
 	            android:textColor="@android:color/black"
@@ -68,31 +65,54 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="bottom"
-		android:weightSum="2"
-        android:orientation="vertical" >
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
 
 		<Button
 		    android:id="@+id/showDate"
 		    android:layout_width="fill_parent"
 		    android:layout_height="50dp"
-		    android:layout_weight="2"
 		    android:text="@string/show_time"
 		    android:textSize="20sp"
-		    android:gravity="left"/>
+		    android:gravity="start"/>
 		<Button
 		    android:id="@+id/setDate"
 		    android:layout_width="50dp"
 		    android:layout_height="50dp"
-		    android:layout_gravity="right"
-		    android:text=">" 
+		    android:layout_gravity="end"
+		    android:text="@string/edit" 
 		    android:textSize="20sp"/>
 	    
 
 	    </FrameLayout>
-	    
+	<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
 
+		<Button
+		    android:id="@+id/showwarning"
+		    android:layout_width="fill_parent"
+		    android:layout_height="50dp"
+		    android:text="@string/warningchoose"
+		    android:textSize="20sp"
+		    android:gravity="start"/>
+		<Button
+		    android:id="@+id/setchoose"
+		    android:layout_width="50dp"
+		    android:layout_height="50dp"
+		    android:layout_gravity="end"
+		    android:text="@string/edit" 
+		    android:textSize="20sp"/>
+
+	    </FrameLayout>
+	<Button
+		android:id="@+id/add"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="end"
+		android:text="@string/add" 
+		android:textSize="20sp"/>
 
 </LinearLayout>
 
